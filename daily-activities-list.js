@@ -100,7 +100,7 @@ function addTask () {
         trashButton.className = "fa fa-trash p-0";
         trashButton.id = counter;
         trashButton.addEventListener('click', function() {
-            for (let i=0; i<2; i++) {
+            for (let i=0; i<1; i++) {
                 document.getElementById("container" + trashButton.id).remove();
             }
         })
